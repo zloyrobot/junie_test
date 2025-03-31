@@ -40,11 +40,11 @@ jobs:
             echo "Downloading IDEA..."
             wget -nv https://download.jetbrains.com/idea/ideaIU-2024.3.1.tar.gz -O ideaIU-2024.3.1.tar.gz
             echo "Downloading Junie..."
-            wget -O ej.zip "https://plugins.jetbrains.com/plugin/download?rel=true&updateId=705220"
+            wget -nv "https://plugins.jetbrains.com/plugin/download?rel=true&updateId=705220" -O ej.zip
             echo "Extracting IDEA..."
             tar -xzf ideaIU-2024.3.1.tar.gz
             echo "Extracting Junie..."
-            unzip ej-*.zip -d idea-external-plugins
+            unzip ej.zip -d idea-external-plugins
             echo "Running Junie..."
             cd idea-IU-*
             bash ./bin/idea.sh -Didea.platform.prefix=Idea -Djava.awt.headless="true" -Didea.plugins.path="../idea-external-plugins" -Didea.system.path=../idea-logs matterhorn --mode=ElectricJuniorIdea --target="$MATTERHORN_TARGET"
