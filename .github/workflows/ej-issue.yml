@@ -31,4 +31,5 @@ jobs:
       - name: Pre-build image and run make ci-build in dev container
         uses: devcontainers/ci@v0.3
         with:
+          imageName: project-devcontainer
           runCmd: gradle build
