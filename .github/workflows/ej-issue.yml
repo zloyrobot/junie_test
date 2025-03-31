@@ -32,4 +32,5 @@ jobs:
         uses: devcontainers/ci@v0.3
         with:
           imageName: project-devcontainer
+          push: never
           runCmd: gradle build
