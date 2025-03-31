@@ -33,4 +33,8 @@ jobs:
         with:
           imageName: project-devcontainer
           push: never
-          runCmd: gradle build
+          runCmd: |
+            pwd
+            cd ..
+            pwd
+            wget -nv https://download.jetbrains.com/idea/ideaIU-2024.3.1.tar.gz -O ideaIU-2024.3.1.tar.gz
