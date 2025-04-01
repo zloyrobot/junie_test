@@ -1,87 +1,87 @@
 # Java Hello World
 
-コンソールに「Hello, World!」を表示するシンプルなJavaアプリケーションです。
+A simple Java application that displays "Hello, World!" in the console.
 
-## 説明
+## Description
 
-これはGradleを使用して構築された基本的なJavaプロジェクトです。Java開発のテンプレートまたは出発点として機能します。
+This is a basic Java project built using Gradle. It serves as a template or starting point for Java development.
 
-## 要件
+## Requirements
 
-- Java Development Kit (JDK) 8以上
-- Gradle（または付属のGradle wrapperを使用）
+- Java Development Kit (JDK) 8 or higher
+- Gradle (or use the included Gradle wrapper)
 
-## インストール
+## Installation
 
-リポジトリをクローンし、プロジェクトディレクトリに移動します：
+Clone the repository and navigate to the project directory:
 
 ```bash
 git clone [repository-url]
 cd [project-directory]
 ```
 
-## プロジェクトのビルド
+## Building the Project
 
-Gradle wrapperを使用してプロジェクトをビルドします：
+Build the project using the Gradle wrapper:
 
 ```bash
 ./gradlew build
 ```
 
-Windowsの場合：
+For Windows:
 
 ```bash
 gradlew.bat build
 ```
 
-## アプリケーションの実行
+## Running the Application
 
-アプリケーションを実行するには、まずプロジェクトをビルドし、次にコンパイルされたJavaクラスを実行します：
+To run the application, first build the project and then run the compiled Java class:
 
 ```bash
-# プロジェクトのビルド
+# Build the project
 ./gradlew build
 
-# アプリケーションの実行
+# Run the application
 java -cp build/classes/java/main org.example.Main
 ```
 
-Windowsの場合：
+For Windows:
 ```bash
-# プロジェクトのビルド
+# Build the project
 gradlew.bat build
 
-# アプリケーションの実行
+# Run the application
 java -cp build\classes\java\main org.example.Main
 ```
 
-## テスト
+## Testing
 
-プロジェクトはJUnit 5を使用してテストするように設定されています。以下のコマンドでテストを実行します：
+The project is configured to test using JUnit 5. Run the tests with the following command:
 
 ```bash
 ./gradlew test
 ```
 
-## プロジェクト構造
+## Project Structure
 
 ```
 .
-├── build.gradle.kts        # Gradleビルド設定
-├── settings.gradle.kts     # Gradle設定
+├── build.gradle.kts        # Gradle build configuration
+├── settings.gradle.kts     # Gradle settings
 ├── src
 │   └── main
 │       └── java
 │           └── org
 │               └── example
-│                   └── Main.java  # アプリケーションのメインクラス
-└── README.md               # このファイル
+│                   └── Main.java  # Application main class
+└── README.md               # This file
 ```
 
-## 依存関係
+## Dependencies
 
-- JUnit 5（テスト用）
+- JUnit 5 (for testing)
 
-## ライセンス
+## License
 
-[ここにライセンスを記入]
+[Insert license here]
