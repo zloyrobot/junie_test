@@ -1,6 +1,6 @@
-name: Junie
-check-updates: false
+# check-updates: false
 
+name: Junie
 
 permissions:
   contents: write
@@ -19,3 +19,4 @@ jobs:
     uses: JetBrains/junie-workflows/.github/workflows/ej-issue.yml@devcontainer
     with:
       workflow_params: ${{ inputs.workflow_params }}
+
