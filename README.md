@@ -1,87 +1,87 @@
 # Java Hello World
 
-A simple Java application that prints "Hello, World!" to the console.
+Простое Java-приложение, которое выводит "Hello, World!" в консоль.
 
-## Description
+## Описание
 
-This is a basic Java project built with Gradle. It serves as a template or starting point for Java development.
+Это базовый Java-проект, построенный с использованием Gradle. Он служит шаблоном или отправной точкой для разработки на Java.
 
-## Prerequisites
+## Требования
 
-- Java Development Kit (JDK) 8 or higher
-- Gradle (or use the included Gradle wrapper)
+- Java Development Kit (JDK) 8 или выше
+- Gradle (или используйте включенный Gradle wrapper)
 
-## Setup
+## Установка
 
-Clone the repository and navigate to the project directory:
+Клонируйте репозиторий и перейдите в директорию проекта:
 
 ```bash
 git clone [repository-url]
 cd [project-directory]
 ```
 
-## Building the Project
+## Сборка проекта
 
-Build the project using the Gradle wrapper:
+Соберите проект, используя Gradle wrapper:
 
 ```bash
 ./gradlew build
 ```
 
-On Windows:
+На Windows:
 
 ```bash
 gradlew.bat build
 ```
 
-## Running the Application
+## Запуск приложения
 
-To run the application, first build the project and then run the compiled Java class:
+Чтобы запустить приложение, сначала соберите проект, а затем запустите скомпилированный Java-класс:
 
 ```bash
-# Build the project
+# Сборка проекта
 ./gradlew build
 
-# Run the application
+# Запуск приложения
 java -cp build/classes/java/main org.example.Main
 ```
 
-On Windows:
+На Windows:
 ```bash
-# Build the project
+# Сборка проекта
 gradlew.bat build
 
-# Run the application
+# Запуск приложения
 java -cp build\classes\java\main org.example.Main
 ```
 
-## Testing
+## Тестирование
 
-The project is configured with JUnit 5 for testing. Run tests with:
+Проект настроен с использованием JUnit 5 для тестирования. Запустите тесты с помощью:
 
 ```bash
 ./gradlew test
 ```
 
-## Project Structure
+## Структура проекта
 
 ```
 .
-├── build.gradle.kts        # Gradle build configuration
-├── settings.gradle.kts     # Gradle settings
+├── build.gradle.kts        # Конфигурация сборки Gradle
+├── settings.gradle.kts     # Настройки Gradle
 ├── src
 │   └── main
 │       └── java
 │           └── org
 │               └── example
-│                   └── Main.java  # Main application class
-└── README.md               # This file
+│                   └── Main.java  # Основной класс приложения
+└── README.md               # Этот файл
 ```
 
-## Dependencies
+## Зависимости
 
-- JUnit 5 (for testing)
+- JUnit 5 (для тестирования)
 
-## License
+## Лицензия
 
-[Specify your license here]
+[Укажите вашу лицензию здесь]
