@@ -1,4 +1,6 @@
 name: Junie
+check-updates: false
+
 
 permissions:
   contents: write
