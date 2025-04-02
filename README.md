@@ -1,87 +1,87 @@
-# Java Hello World
+# Java Hello World 项目
 
-A simple Java application that displays "Hello, World!" in the console.
+一个在控制台显示 "Hello, World!" 的简单 Java 应用程序。
 
-## Description
+## 描述
 
-This is a basic Java project built using Gradle. It serves as a template or starting point for Java development.
+这是一个使用 Gradle 构建的基础 Java 项目。它可以作为 Java 开发的模板或起点。
 
-## Requirements
+## 要求
 
-- Java Development Kit (JDK) 8 or higher
-- Gradle (or use the included Gradle wrapper)
+- Java 开发工具包 (JDK) 8 或更高版本
+- Gradle (或使用包含的 Gradle 包装器)
 
-## Installation
+## 安装
 
-Clone the repository and navigate to the project directory:
+克隆仓库并导航到项目目录：
 
 ```bash
-git clone [repository-url]
-cd [project-directory]
+git clone [仓库地址]
+cd [项目目录]
 ```
 
-## Building the Project
+## 构建项目
 
-Build the project using the Gradle wrapper:
+使用 Gradle 包装器构建项目：
 
 ```bash
 ./gradlew build
 ```
 
-For Windows:
+对于 Windows：
 
 ```bash
 gradlew.bat build
 ```
 
-## Running the Application
+## 运行应用程序
 
-To run the application, first build the project and then run the compiled Java class:
+要运行应用程序，首先构建项目，然后运行编译后的 Java 类：
 
 ```bash
-# Build the project
+# 构建项目
 ./gradlew build
 
-# Run the application
+# 运行应用程序
 java -cp build/classes/java/main org.example.Main
 ```
 
-For Windows:
+对于 Windows：
 ```bash
-# Build the project
+# 构建项目
 gradlew.bat build
 
-# Run the application
+# 运行应用程序
 java -cp build\classes\java\main org.example.Main
 ```
 
-## Testing
+## 测试
 
-The project is configured to test using JUnit 5. Run the tests with the following command:
+该项目配置为使用 JUnit 5 进行测试。使用以下命令运行测试：
 
 ```bash
 ./gradlew test
 ```
 
-## Project Structure
+## 项目结构
 
 ```
 .
-├── build.gradle.kts        # Gradle build configuration
-├── settings.gradle.kts     # Gradle settings
+├── build.gradle.kts        # Gradle 构建配置
+├── settings.gradle.kts     # Gradle 设置
 ├── src
 │   └── main
 │       └── java
 │           └── org
 │               └── example
-│                   └── Main.java  # Application main class
-└── README.md               # This file
+│                   └── Main.java  # 应用程序主类
+└── README.md               # 本文件
 ```
 
-## Dependencies
+## 依赖项
 
-- JUnit 5 (for testing)
+- JUnit 5 (用于测试)
 
-## License
+## 许可证
 
-[Insert license here]
+[在此插入许可证]
