@@ -1,6 +1,6 @@
 {
 	"name": "Dev Container with Java, Gradle, Python, and npm",
-	"image": "mcr.microsoft.com/devcontainers/base:jammy", // Ubuntu 22.04
+	"image": "mcr.microsoft.com/devcontainers/java:1-21",
 
 	//https://github.com/devcontainers/features
 	"features": {
