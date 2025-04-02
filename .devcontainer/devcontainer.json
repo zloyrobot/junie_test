@@ -5,9 +5,9 @@
 	//https://github.com/devcontainers/features
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
-			"version": "17"
-		},
-		"ghcr.io/devcontainers/features/gradle:1": {
+			"version": "none",
+			"installGradle": "true",
+			"installMaven": "true"
 		},
 		"ghcr.io/devcontainers/features/python:1": {
 			"version": "3.10"
